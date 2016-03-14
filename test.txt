@@ -2,4 +2,5 @@
 <head>
 Hello git
 </head>
+<title>this is git test</title>
 </html>
