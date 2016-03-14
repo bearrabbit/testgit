@@ -1,6 +1,7 @@
 <html>
 <head>
+<title>this is git test</title>
 Hello git
 </head>
-<title>this is git test</title>
+<body>who's there</body>
 </html>
