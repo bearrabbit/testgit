@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>count1</title>
+
+	</head>
+
+		<body>
+			<input id="box" type="text" value="0" />
+			<input id="start" type="button" value="start" onclick="start1()">
+			<input id="reset" type="button" value="reset" onclick="reset1()">
+
+			<script type="text/javascript">
+
+		
+				
+			var count=0;
+			var id;
+			var startq=document.getElementById("start"); 
+				var resetq=document.getElementById("reset");
+				var boxq=document.getElementById("box");
+			
+			function tip()
+			{
+				count++;//=(count+1)/100;
+				boxq.value=count/100;
+			}
+			function start1()
+			 {
+
+				
+				if(startq.value=="start")
+					{
+						startq.value="stop";
+						resetq.disabled=true;
+						id=window.setInterval(tip,10);
+					}
+				else
+					{
+						startq.value="start";
+						resetq.disabled=false;
+						window.clearInterval(id);
+					}
+
+				// body...
+			}
+
+			function reset1()
+			{
+				count=0;
+			}
+
+		</script>
+		</body>
+</html>

@@ -1,0 +1,87 @@
+body{margin: 0;padding: 0;}
+			.head{
+				position: absolute;
+				width: 1575px;
+				height: 100px;
+				line-height: 100px;
+				font-size: 60px;
+				background: #008B8B;
+				color: #BA55D3;
+			}
+
+			.my_body{
+				position: absolute;
+				width: 1365px;
+				height: 628px;
+				left:210px;
+				top:110px;
+				background: #8DEEEE;
+			}
+
+			.menu_list{
+				position: absolute;
+				width: 200px;
+				height: 628px;
+				top: 110px;
+
+				background: #20B2AA;
+			}
+			ul{
+				list-style-type: none;
+				margin: 0;
+				padding: 10px;
+
+			}
+			#wifi_5g{
+				position: relative;
+				left: 10px;
+			}
+			#wifi_24g{
+				position: relative;
+				left: 10px;
+			}
+			#wifi5g_box{
+				position: relative;
+				left: 25px;
+			}
+			#wifi2g_box{
+				position: relative;
+				left: 25px;
+			}
+			#N_box{
+				position: relative;
+				left: 10px;
+			}
+			#tool_box{
+				position: relative;
+				left: 10px;
+			}
+			#Q_config{
+				position: relative;
+				margin-top:20px;
+				margin-left: 10px;
+				height: 33px;
+				line-height: 100%
+				
+			}
+			#W_config,#wifi_5g,#wifi5g_1,#wifi5g_2,#wifi5g_3,#wifi_24g,#wifi2g_1,#wifi2g_2,#wifi2g_3,#N_para,#in_con,#out_con,#Q_os,#run,#traffic,#update,#paras,#admin,#restart,#S_tools{
+					height: 33px;
+					line-height: 100%;
+					margin-left: 10px;
+				}
+			
+			.titleQ,.titleW1,.titleW2{
+				position: relative;
+				left: 10px;
+				top: 10px;
+				font-size: 30px;
+
+			}
+			.imgQ,.imgW1,.imgW2{
+				position: relative;
+				top: 10px;
+				left: 10px;
+				height: 570px;
+				width:1300px;
+
+			}
