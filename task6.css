@@ -1,0 +1,417 @@
+html {overflow-y: scroll;} 
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+body{
+	background: #5d5d5d;
+	font-family: "微软雅黑";
+}
+body,div,img,span,p,ul,li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.about_tech,._700,.number3,.css,.small_css,.word_qian,.bo_word,.sub_boword,.zero,.what_percent,.what_title,.when_title,.how_title,.when,.how,
+{
+	font-family: "微软雅黑";
+}
+.art2_title p,.the,.in_quot,.quot1,.quot2{
+	font-family: "黑体";
+}
+.art2_left_bottom,li,.tiny{
+	font-family: "宋体";
+}
+#newspaper,#header,.verti_line,#footer{
+	background:#fff;
+
+}
+#footer,#header{
+	border-bottom: 2px solid #938e8c;
+}
+#newspaper{
+	width: 892px;
+	height: 1386px;
+	padding: 0 44px;
+	margin: 10px auto;
+}
+#header{
+	position: relative;
+	height: 61px;
+	width: 892px;
+	margin:auto;
+}
+.header_left{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 61px;
+	width: 110px;
+	background: #D55D5C;
+
+}
+.header_left p{
+	position: absolute;
+	left: 17px;
+	bottom: 3px;
+	color: #fff;
+	font-size: 10px;
+
+}
+.header_right{
+	position: absolute;
+	right: 0;
+	bottom: 3px;
+	color: #D55D5C;
+	font-size: 10px;
+
+}
+.article1{
+	position: relative;
+}
+.art1_left_top{
+	position: relative;
+	display: inline-block;
+	height: 348px;
+	width: 641px;
+}
+.art1_left_top img{
+	margin: 35px 0 10px 0;
+	height: 301px;
+	width: 641px;
+}
+.left_opacity,.right_opacity{
+	position: absolute;
+	height: 301px;
+	width: 191px;
+	top: 35px;
+}
+
+.left_opacity{
+	position: absolute;
+	left: 0;
+	background: #40E0D0;
+	opacity: .4;
+	filter:alpha(opacity=40);
+
+}
+.right_opacity{
+	position: absolute;
+	right: 0;
+	background: #F08080;
+	opacity: .3;
+	filter:alpha(opacity=30);
+
+}
+.art1_left_bottom{
+	width: 641px;
+}
+.what,.when,.how{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	height: 150px;
+	font-size: 12px;
+
+}
+.what,.when{
+	width: 200px;
+	margin-right: 16px;
+}
+.what{
+	font-family: "宋体";
+	color: #767777;
+	margin-top: 20px;
+}
+.when,.how{
+
+	color: #231815;
+	margin-top: 20px;
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+.how{	
+	width: 180px;
+}
+.what_title,.when_title,.how_title{
+	font-size: 16px;
+	font-weight: bold;
+	color: #418c59;
+	text-decoration: underline;
+	line-height: 36px;
+}
+.when_title{
+	color: #d2994f;
+}
+.how_title{
+	color: #cc7680;
+}
+
+.what_percent{
+	font-size: 12px;
+	color: #cd4a48;
+	font-style: italic;
+	margin-top: 16px;
+}
+.art1_right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 500px;
+	
+}
+.line{
+	margin: 35px 0 15px 0;
+	width: 203px;
+	height: 2px;
+	background: #cc8091;
+}
+
+.about_tech{
+	font-size: 20px;
+	color: #000;
+	text-decoration: underline;
+}
+.letter_AT{
+	font-size: 24px;
+	vertical-align: bottom;
+}
+.small_about{
+	font-family: "楷体";
+	font-size: 12px;
+	color: #676767;
+	font-style: italic;
+}
+._700{
+	
+	font-size: 100px;
+	font-style: italic;
+	color: #75b86b;
+	font-weight: bold;
+}
+.number3{
+	display: inline-block;
+	width: 80px;
+	font-size: 55px;
+	color: #cc8091;
+}
+._css{
+	display: inline-block;
+	width: 100px;
+}
+.css
+{
+	line-height: 21px;
+	font-size: 21px;
+		color: #cc8091;	
+}
+.small_css{
+	
+	line-height: 12px;
+	font-size:12px;
+	color: #cc8091;	
+}
+.art2_left{
+	display: inline-block;
+	width: 415px;
+}
+.art2_title{
+	width: 415px;
+	border-bottom: 2px solid #11456b;
+	padding-bottom: 16px;
+}
+.the{
+	/* float: left; */
+	margin: 5px 0 0 ;
+	font-size: 72px;
+	color: #f5e327;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 10px;
+}
+.art2_title p{
+	font-size: 42px;
+	color: #11456b;
+	font-weight: bold;
+	padding-top: 39px;
+}
+.sub_the{
+	
+	font-size: 33px;
+}
+.art2_left_bottom{
+
+	font-size: 12px;
+	color: #767777;
+	padding-bottom: 16px;
+}
+.word_qian{
+	float: left;
+	font-size:70px;
+	color: #f5e327;
+	padding-right: 10px;
+}
+.art2_left_bottom p{
+	text-indent: 2em;
+}
+.art2_left_bottom img{
+	float: right;
+	margin: 16px;
+	width: 165px;
+	height: 288px;	
+}
+.art2_right{
+	width: 319px;
+	height: 671px;
+	display: inline-block;
+	vertical-align: top;
+}
+.art2_right_img{
+	position: relative;
+}
+.art2_right img{
+	height: 275px;
+	width: 458px;
+	padding: 39px 0 20px 20px;
+}
+.bottom_opacity{
+	
+	position: absolute;
+	bottom: 24px;
+	right: -159px;
+	height: 61px;
+	width: 458px;
+	background: #5a5b5b;
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+.bo_word{
+	position: absolute;
+	margin-top: -76px; 
+	line-height: 44px;
+	margin-left: 51px;
+	height: 44px;
+	width: 400px;
+	color: #72b16a;
+	font-size: 12px;
+	font-style: italic;
+	border-left: 3px solid #72b16a;
+
+}
+.sub_boword{
+	
+	font-size: 26px;
+	color: #fff;
+	padding-left: 20px;
+	font-style: normal;
+}
+.last_bottom{
+	position: relative;
+}
+.art2_right_bottom{
+	display: inline-block;
+	width: 420px;
+	height: 276px;
+	padding:20px;
+	margin-left: 20px;
+	background: #EEEED6;
+}
+li{
+	background-image: url(./arrow4.jpg);
+	background-repeat: no-repeat;
+	
+	font-size: 16px;
+	color: #5a5b5b;
+	padding-bottom:20px;
+	padding-left: 23px;
+}
+.tiny{
+	
+	font-size: 12px;
+	font-style: italic;
+	text-align: right;
+
+}
+.hello{
+
+	margin-left: 257px;
+	height: 120px;
+	width: 274px;
+	margin-top: 50px;
+
+} 
+.quot1{
+	position: absolute;
+	left: 217px;
+	top: -17px;
+
+	font-size: 72px;
+	color: #d45d5c;
+	
+}
+.quot2{
+	right: -40px;
+	bottom: -21px;
+	position: absolute;
+	font-size: 72px;
+	color: #d45d5c;	
+
+} 
+.in_quot{
+	text-indent: 3em;
+	font-size: 14px;
+	color: #5a5b5b;
+	font-style: italic;
+}
+
+.red{
+	position: absolute;
+	left: -20px;
+	bottom: -12px;
+	height: 160px;
+	width: 260px;
+	background: #D55D5C;
+}
+.zero{
+	display: inline-block;
+	vertical-align: top;
+	width: 110px;
+	height: 110px;
+	color: #fff;
+	font-size: 110px;
+	margin-left: 14px;
+}
+.verti_line{
+	position: absolute;
+	left: 84px;
+	top: 32px;
+	height: 86px;
+	width: 2px;
+}
+.one{
+	display: inline-block;
+	width: 134px;
+	margin-top: 27px;
+	margin-left: -27px;
+	font-size: 18px;
+	color: #fff;
+	font-style: italic;
+}
+.one p{
+	line-height: 12px;
+}
+.sub_one{
+	font-size: 12px;
+	vertical-align: top;
+}
+#footer{
+	position: relative;
+	height: 37px;
+	width: 892px;
+	margin:auto;
+}
+.footer_left{
+	position: absolute;
+	right: 0;
+	bottom: -19px;
+	color: #D55D5C; 
+	font-size: 10px;}
+
