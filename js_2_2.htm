@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+  </head>
+<body>
+
+  <h3>污染城市列表</h3>
+  <ul id="aqi-list">
+
+  </ul>
+
+<script type="text/javascript">
+
+var aqiData = [
+  ["北京", 90],
+  ["上海", 50],
+  ["福州", 10],
+  ["广州", 50],
+  ["成都", 90],
+  ["西安", 100]
+];
+
+var num=["一",'二','三'];
+var com=aqiData.sort(function(a,b){       //a，b为aqiData里两个相比较的元素，即aqiData[0],aqiData[1]
+  return b[1]-a[1];						//a[1],b[1]即为aqiData[0][1],aqiData[1][1]
+});
+
+function list(){
+
+	var str="";                       //声明一个变量用来装以后符合if语句的值,注意这个是在for循环的外面
+    for (var i=0;i<com.length;i++){
+    	
+          if(com[i][1]>=60){
+            str+= "第"+num[i]+"名："+com[i]+"<br>";            //str+=是为了防止后面的把前面的值覆盖了
+          }
+        }
+    return str;                                                //返回str
+}
+var list1=list();                                //把函数返回的值给list1
+var aqi_list=document.getElementById("aqi-list");
+aqi_list.innerHTML=list1;
+
+</script>
+</body>
+</html>
